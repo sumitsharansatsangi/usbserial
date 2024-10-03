@@ -153,7 +153,4 @@ public class UsbSerialPortAdapter implements MethodCallHandler, EventChannel.Str
 
     }
 
-
-
-
 }
