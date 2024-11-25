@@ -65,7 +65,7 @@ class Transaction<T> {
             header: header, maxLen: maxLen));
   }
 
-   /// Create a transaction that uses MagicHeaderFixedLengthByteTransformer
+  /// Create a transaction that uses MagicHeaderFixedLengthByteTransformer
   ///
   /// ```dart
   /// Transaction.magicHeaderFixedLength(p.inputStream, Uint8List.fromList([65,65,65]), len: 10); // expects magic header AAA and fixed length 10.

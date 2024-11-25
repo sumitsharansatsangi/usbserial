@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.6.1'
+        classpath 'com.android.tools.build:gradle:8.7.2'
     }
 }
 
@@ -16,7 +16,6 @@ rootProject.allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url "https://jitpack.io" }
     }
 
     gradle.projectsEvaluated {
@@ -49,6 +48,8 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.felHR85:UsbSerial:6.1.0'
+   // https://mvnrepository.com/artifact/com.github.felHR85/UsbSerial
+   implementation("com.github.felHR85:UsbSerial:9b915b2f84")
+
 }
 
