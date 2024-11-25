@@ -50,8 +50,6 @@ android {
 }
 
 dependencies {
-   // https://mvnrepository.com/artifact/com.github.felHR85/UsbSerial
-   implementation("com.github.felHR85:UsbSerial:9b915b2f84")
-
+   implementation 'com.github.felHR85:UsbSerial:6.0.6'
 }
 
